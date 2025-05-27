@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500"><span>Saravanan</span></div>
+            <div class="links">
+                <a href="#Home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#Home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+<section id = "Home">
+    <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="300">
+            <img src="G:/saara_portfolio/saara_editz.png" alt="Saravanan">
+        </div>
+        <div class="content">
+            <h1 data-aos="fade-left" data-aos-suration ="1500" data-aos-delay="700">Hi, It'<span> Saravanan</span></h1> 
+                    <div class="typewriter" data-aos = "fade-right" data-aos-duration="1500">
+                                 I'm a <span class="auto-type"></span>
+                                    <label for =""></label>
+                    </div>
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <script>
+                        var typed = new Typed(".auto-type",{
+                            strings : ["AI Developer ....","video Editor ....","App Developer ....","Data Analyst...."],typeSpeed : 150, backSpeed : 150, looped : true
+                        })
+                    </script>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Tech enthusiast building smart solutions with code, creativity, and caffeine. 💻⚡</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/saravanan-m-30b92734a/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Saara1310" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                <button>Hire me</button>
+            </div>
+        </div>
+    </section>
+<section class="about" id="about">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="G:/saara_portfolio/saara_editz.png" alt="About Image" data-aos="zoom-in-right">
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Designing Is My Passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">>
+     I'm an enthusiastic AI Developer with a passion for building intelligent systems that solve real-world problems. From crafting machine learning models to integrating AI into dynamic web experiences, I thrive at the intersection of innovation and practicality. My curiosity drives me to stay ahead in this ever-evolving field—exploring everything from neural networks and natural language processing to ethical AI and automation.
+</p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="300">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Skills Reflect Our Knowledge</div>
+                    <p data-aos="fade-right">Creative Web Developer & AI Engineer skilled in HTML, CSS, JavaScript, React, and Node.js, with AI expertise in Python, TensorFlow, and scikit-learn—building sleek interfaces and smart solutions.</p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num">
+                            1+</div>
+                        <div class="exp">
+                            Years Of<br/>Experience
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                            <div class="per"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                    </div>
+
+                    <div class="box">
+                        <div class="topic"  data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">CSS</div>
+
+                            <div class="per"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">80%</div>
+                    </div>
+
+                    <div class="box">
+                        <div class="topic"  data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">Python</div>
+
+                            <div class="per"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+                    </div>
+
+                    <div class="box">
+                        <div class="topic"  data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">SQL</div>
+
+                            <div class="per"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="services" id="services">
+        <div class="content">
+            <div class="title"  data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+            <div class="boxes">
+                <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon"><i class="fas fa-desktop"></i></div>
+                    <div class="topic">Web Development</div>
+                    <p>Crafting fast, responsive, and </p>
+                       <p> user-focused websites with 
+                        modern web tech..</p>
+                </div>
+                <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon"><i class="fab fa-android"></i></div>
+                    <div class="topic">Android App Development</div>
+                    <p>Building sleek, high-performance </p>
+                       <p> Android apps with clean UI and robust code.</p>
+                </div>
+                <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                    <div class="icon"><i class="fas fa-brain"></i></div>
+                    <div class="topic">Machine Learning Modeling</div>
+                    <p>Turning data into smart solutions with</p>
+                       <p>cutting-edge machine learning models.</p>
+                </div>
+                <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                    <div class="icon"><i class="fas fa-chart-bar"></i></div>
+                    <div class="topic">Data Analysis</div>
+                    <p>Transforming raw data into clear, </p>
+                        <p>actionable insights for smarter decisions.</p>
+                </div>
+                <div class="box"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                    <div class="icon"><i class="fas fa-video"></i></div>
+                    <div class="topic">Video Editing</div>
+                    <p>Editing with precision, creativity, </p>
+                        <p>and a keen eye for detail 🎞️🎨</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="contact" id="contact">
+        <div class="content">
+            <div class="title"  data-aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic"  data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+                <p>"Feel free to reach out if you have any projects"</p>
+                <div class="button"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                    <button>Let's Chat</button>
+                </div>
+            </div>
+        </div>
+</section>
+
+<footer>
+        <div class="text">
+            <span>Created by Saravanan with reference from ProCoder9 (YouTuber)</span>
+        </div>
+</footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({offset:0});
+  </script>
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
